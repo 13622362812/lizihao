@@ -13,9 +13,9 @@ int main(){
     // And I add some notes here
     cout << "zhouzhiyuan" << endl;
 
-    int a,b;
+    int a,c;
     cin >> a;
-    cin >> b;
-    cout<<addnum(a,b)<<endl;
+    cin >> c;
+    cout << addnum(a,c);
     return 0;
 }
