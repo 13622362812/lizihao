@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
-
+int addnum(int a,int b){
+    return a-b;
+}
 int main(){
     int l;
     cin>>l;
@@ -11,8 +13,9 @@ int main(){
     // And I add some notes here
     cout << "zhouzhiyuan" << endl;
 
-    int a,b;
+    int a,c;
     cin >> a;
-    cin >> b;
+    cin >> c;
+    cout << addnum(a,c);
     return 0;
 }
