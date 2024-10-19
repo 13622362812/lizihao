@@ -1,6 +1,10 @@
 #include<iostream>
 using namespace std;
 int addnum(int a,int b){
+    return a+b;
+}
+
+int subnum(int a,int b){
     return a-b;
 }
 int main(){
@@ -17,5 +21,7 @@ int main(){
     cin >> a;
     cin >> c;
     cout << addnum(a,c);
+
+
     return 0;
 }
